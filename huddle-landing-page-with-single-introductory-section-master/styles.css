@@ -1,0 +1,26 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, hsla(257, 40%, 49%,.5), hsla(300, 69%, 71%,.5)), url('./images/bg-desktop.svg');
+}
+
+
+.logo{
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 20px 50px;
+}
+
+.box{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
