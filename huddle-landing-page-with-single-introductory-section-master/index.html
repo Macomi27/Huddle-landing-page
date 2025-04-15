@@ -6,6 +6,13 @@
     <!-- displays site properly based on user's device -->
 
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -17,18 +24,8 @@
     </title>
 
     <link rel="stylesheet" href="./styles.css" />
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body>
+  <body class="parent">
     <div class="logo"><img src="./images/logo.svg" alt="logo" /></div>
 
     <div class="box">
@@ -49,15 +46,18 @@
       </div>
     </div>
 
-    <!-- <div class="socials">
-  </div> -->
+    <div class="socials">
+      <div class="icon-box"><i class="fa-brands fa-facebook-f"></i></div>
+      <div class="icon-box"><i class="fa-brands fa-twitter"></i></div>
+      <div class="icon-box"><i class="fa-brands fa-instagram"></i></div>
+    </div>
 
     <footer>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Ma Comfort</a>.
       </p>
     </footer>
   </body>
