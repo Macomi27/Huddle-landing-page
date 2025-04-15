@@ -17,8 +17,8 @@ body{
 
 
 .logo{
-    width: 90%;
-    margin-inline: auto;
+    width: 18%;
+    margin-left: 5%;
     margin-block: 20px 50px;
 }
 
@@ -34,7 +34,12 @@ body{
     width: 100%;
 }
 
+.screens{
+    width: 70%;
+}
+
 .content{
+    width: 40%;
     color: white;
     margin-top: 50px;
 }
